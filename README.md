@@ -2,7 +2,7 @@
 
 ## Objective
 
-<img width="423" alt="Screenshot 1 from app" src="https://github.com/ilsegaertner/chat-app/blob/main/assets/screen1.png">
+<img width="223" alt="Screenshot 1 from app" src="https://github.com/ilsegaertner/chat-app/blob/main/assets/screen1.png">
 
 To build a chat app for mobile devices using React Native. The app will provide users with a chat interface and options to share images and their location.
 
