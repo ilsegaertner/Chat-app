@@ -5,11 +5,15 @@ import { Bubble, GiftedChat } from "react-native-gifted-chat";
 const Chat = ({ navigation, route }) => {
   const { username, background } = route.params;
   const [messages, setMessages] = useState([]);
+
+  // append the new messages to the old ones
   const onSend = (newMessages) => {
     setMessages((previousMessages) =>
       GiftedChat.append(previousMessages, newMessages)
     );
   };
+
+  // define the individual style of the bubble
   const renderBubble = (props) => {
     return (
       <Bubble
@@ -26,6 +30,7 @@ const Chat = ({ navigation, route }) => {
     );
   };
 
+  // set the messages
   useEffect(() => {
     setMessages([
       {
@@ -47,6 +52,7 @@ const Chat = ({ navigation, route }) => {
     ]);
   }, []);
 
+  // set the username as title
   useEffect(() => {
     navigation.setOptions({ title: username });
   }, []);
