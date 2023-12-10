@@ -35,28 +35,6 @@ const Chat = ({ navigation, route, db }) => {
     );
   };
 
-  // set the messages
-  // useEffect(() => {
-  //   setMessages([
-  //     {
-  //       _id: 1,
-  //       text: "Hello Developer",
-  //       createdAt: new Date(),
-  //       user: {
-  //         id: 2,
-  //         name: "React native",
-  //         avatar: "https://loremflickr.com/320/240/dog",
-  //       },
-  //     },
-  //     {
-  //       _id: 2,
-  //       text: "You are in the chatroom",
-  //       createdAt: new Date(),
-  //       system: true,
-  //     },
-  //   ]);
-  // }, []);
-
   useEffect(() => {
     navigation.setOptions({ title: user });
     const q = query(collection(db, "messages"), orderBy("createdAt", "desc"));
