@@ -10,7 +10,7 @@ import {
 } from "firebase/firestore";
 
 const Chat = ({ navigation, route, db }) => {
-  const { user, background } = route.params;
+  const { user, background, userID } = route.params;
   const [messages, setMessages] = useState([]);
 
   // append the new messages to the old ones
@@ -84,7 +84,7 @@ const Chat = ({ navigation, route, db }) => {
         renderBubble={renderBubble}
         onSend={(messages) => onSend(messages)}
         user={{
-          _id: 1,
+          uid: userID,
           username: user,
         }}
       />
