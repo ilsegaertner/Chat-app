@@ -7,12 +7,30 @@ import {
   ImageBackground,
   KeyboardAvoidingView,
   Platform,
+  Alert,
 } from "react-native";
 
 import { useState } from "react";
+import { getAuth, signInAnonymously } from "firebase/auth";
 
 const Start = ({ navigation }) => {
-  const [username, setUsername] = useState("");
+  const auth = getAuth();
+  const signInUser = () => {
+    signInAnonymously(auth)
+      .then((result) => {
+        navigation.navigate("Chat", {
+          userID: result.user.uid,
+          user: user,
+          background: background,
+        });
+        Alert.alert("Signed In Successfully!");
+      })
+      .catch((error) => {
+        Alert.alert("Unable to sign in, try again later.");
+      });
+  };
+
+  const [user, setUser] = useState("");
   const [background, setBackground] = useState("");
   const image = require("../assets/background-image.png");
 
@@ -28,9 +46,9 @@ const Start = ({ navigation }) => {
         <View style={styles.formInput}>
           <TextInput
             style={styles.textInput}
-            value={username}
+            value={user}
             placeholder="Your Username"
-            onChangeText={setUsername}
+            onChangeText={setUser}
           />
 
           <View style={styles.backgroundColorButtonWrapper}>
@@ -56,15 +74,7 @@ const Start = ({ navigation }) => {
               ></TouchableOpacity>
             </View>
           </View>
-          <TouchableOpacity
-            style={styles.enterButton}
-            onPress={() =>
-              navigation.navigate("Chat", {
-                username: username,
-                background: background,
-              })
-            }
-          >
+          <TouchableOpacity style={styles.enterButton} onPress={signInUser}>
             <Text style={styles.buttonText}>Enter chat</Text>
           </TouchableOpacity>
         </View>
