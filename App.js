@@ -37,6 +37,7 @@ const App = () => {
         <Stack.Screen name="Start" component={Start} />
         <Stack.Screen name="Chat">
           {(props) => <Chat db={db} {...props} />}
+          {/* Using {...props} ensures that not only the db prop but also other relevant navigation-related props are passed to the Chat component. <Stack.Screen name="Chat" component={Chat} wouldnt pass the db props */}
         </Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
