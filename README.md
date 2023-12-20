@@ -6,9 +6,9 @@ The objective was a chat app for mobile devices using React Native. The app will
 
 ##### Screenshot gif from the Android Emulator:
 
-<div style="text-align:center;">
+<p align="center">
 <img src="https://github.com/ilsegaertner/chat-app/blob/main/assets/gif%20for%20chat%20app.gif" alt="Screenshot 2, gif of the apps functionality" width="220">
-</div>
+</p>
 
 ## Features
 
