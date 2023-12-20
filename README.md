@@ -27,13 +27,13 @@ The objective was to build a chat app for mobile devices using React Native. The
 ## Directions for setting up the environment
 
 - Make sure to install <a href="https://nodejs.org/en/learn/getting-started/how-to-install-nodejs">Node JS</a> on your device
-- Install Expo globally: npm install -g expo-cli
+- Install Expo globally: `npm install -g expo-cli`
 - Sign up for an <a href="https://expo.dev/">Expo Account </a> to be able to run the app on your device
 - Clone the repository
-- Run npm install
+- Run `npm install``
 - Use your own Firebase configuration code
 - Download Android Studio(Win) or iOS Simulator/XCode(Mac)
-- Run expo start
+- Run `expo start``
 
 ## Screenshots
 
