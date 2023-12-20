@@ -4,8 +4,8 @@
 
 The objective was a chat app for mobile devices using React Native. The app will provide users with a chat interface and options to share images and their location.
 
-<p align="center">Screenshot gif from the Android Emulator: <img src="https://github.com/ilsegaertner/chat-app/blob/main/assets/gif%20for%20chat%20app.gif" alt="Screenshot 2, gif of the apps functionality" width="220">
-
+<p align="center">Screenshot gif from the Android Emulator:</p>
+<p align="center"><img src="https://github.com/ilsegaertner/chat-app/blob/main/assets/gif%20for%20chat%20app.gif" alt="Screenshot 2, gif of the apps functionality" width="220">
 </p>
 
 ## Features
