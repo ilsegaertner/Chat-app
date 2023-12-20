@@ -2,7 +2,7 @@
 
 ## Objective
 
-The objective was a chat app for mobile devices using React Native. The app will provide users with a chat interface and options to share images and their location.
+The objective was to build a chat app for mobile devices using React Native. The app will provide users with a chat interface and options to share images and their location from a phone as well as the Android Simulator.
 
 <h5 align="center">Screenshot gif from the Android Emulator:</h5>
 <p align="center"><img src="https://github.com/ilsegaertner/chat-app/blob/main/assets/gif%20for%20chat%20app.gif" alt="Screenshot 2, gif of the apps functionality" width="220">
@@ -11,10 +11,10 @@ The objective was a chat app for mobile devices using React Native. The app will
 ## Features
 
 - Select the background of the chat(four colors to choose)
-- Sign-in with username
+- Sign-in and anonymous authentication with a username
 - Sending/receiving messages in real-time
 - images/location sharing
-- Offline viewing of the cashed messages
+- Offline viewing of cashed messages
 
 ## Technologies used
 
@@ -26,6 +26,7 @@ The objective was a chat app for mobile devices using React Native. The app will
 
 ## Directions for setting up the environment
 
+- Make sure to install <a href="https://nodejs.org/en/learn/getting-started/how-to-install-nodejs">Node JS</a> on your device
 - Install Expo globally npm install -g expo-cli
 - Clone the repository
 - Run npm install
