@@ -40,13 +40,13 @@ The app will provide users with a chat interface and options to share images and
 - Navigate to the folder and run `npm install`
 - Use your own Firebase configuration code:
   - Sign in at [Google Firebase](https://firebase.google.com/)
-  - **Create a Project** (uncheck _Enable Google Analytics for this project_)
-  - **Create Database** in **Firestore Database** (choose a close region from the dropdown, and _Start in production mode_)
+  - **Create a Project** (uncheck **Enable Google Analytics for this project**)
+  - **Create Database** in **Firestore Database** (choose a close region from the dropdown, and **Start in production mode**)
   - Change `allow read, write: if false;` to `allow read, write, if true;` in **Rules** tab
   - **Register app(`</>`)** in **Project Overview**
   - Now, follow the provided directions of adding Firebase SDK:
     - Install firebase: `npm install firebase`
-    - Initialize firebase: Copy and paste the provided Firebase configuration and change them in the App.js of the downloaded repository
+    - Initialize firebase: Copy and paste the provided Firebase configuration and change them in the _App.js_ of the downloaded repository
 - Download Android Studio(Win) or iOS Simulator/XCode(Mac)
 - Run `expo start` in the terminal. Follow the instruction to access the app via the iOS Simulator/Android Emulator
 
