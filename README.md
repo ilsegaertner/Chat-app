@@ -31,14 +31,21 @@ The objective was to build a chat app for mobile devices using **React Native**.
 
 ## Directions for setting up the environment
 
-- Make sure to install <a href="https://nodejs.org/en/learn/getting-started/how-to-install-nodejs">Node JS</a> on your device
-- Install Expo globally: `npm install -g expo-cli`
+- Install <a href="https://nodejs.org/en/learn/getting-started/how-to-install-nodejs">Node JS</a> on your device
+- In the terminal: Install Expo globally: `npm install -g expo-cli`
 - Sign up for an <a href="https://expo.dev/">Expo Account </a> to be able to run the app on your device
-- Clone the repository
-- Run `npm install`
-- Use your own Firebase configuration code
+- Clone this repository
+- Navigate to the folder and run `npm install`
+- Use your own Firebase configuration code:
+  - Sign in at [Google Firebase](https://firebase.google.com/)
+  - **Create a Project** (uncheck _Enable Google Analytics for this project_)
+  - **Create Database** in **Firestore Database** (choose a close region from the dropdown, and _Start in production mode_)
+  - Change `allow read, write: if false;` to `allow read, write, if true;` in **Rules** tab
+  - **Register app(</>)** in **Project Overview**
+  - Follow directions of adding Firebase SDK:
+    - `npm install firebase` + Initializing firebase: Copy and paste the provided Firebase configuration and change them in the App.js of the downloaded repository
 - Download Android Studio(Win) or iOS Simulator/XCode(Mac)
-- Run `expo start`
+- Run `expo start` in the terminal. Follow the instruction to access the app via the iOS Simulator/Android Emulator
 
 ## Screenshots
 
