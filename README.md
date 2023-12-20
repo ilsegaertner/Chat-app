@@ -24,8 +24,9 @@ To build a chat app for mobile devices using React Native. The app will provide 
 
 ## Setting up the Environment
 
+- Install Expo globally npm install -g expo-cli
 - Clone the repository
 - Run npm install
-- Install Expo globally npm install -g expo-cli
 - Use your own Firebase configuration code
+- Download Android Studio(Win) or iOS Simulator/XCode(Mac)
 - Run expo start
