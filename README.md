@@ -40,7 +40,7 @@ The app will provide users with a chat interface and options to share images and
 - Navigate to the folder and run `npm install`
 - Use your own Firebase configuration code:
   - Sign in at [Google Firebase](https://firebase.google.com/)
-  - `**Create a Project**` (uncheck **Enable Google Analytics for this project**)
+  - **Create a Project** (uncheck **Enable Google Analytics for this project**)
   - **Create Database** in **Firestore Database** (choose a close region from the dropdown, and **Start in production mode**)
   - Change `allow read, write: if false;` to `allow read, write, if true;` in **Rules** tab
   - **Register app(`</>`)** in **Project Overview**
