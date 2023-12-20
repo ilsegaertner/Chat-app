@@ -3,6 +3,7 @@
 ## Objective
 
 The objective was to build a chat app for mobile devices with **React Native**.
+<br>
 The app will provide users with a chat interface and options to share images and their location from a phone as well as the Android Simulator.
 
 <br>
