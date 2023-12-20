@@ -33,4 +33,6 @@ The objective was a chat app for mobile devices using React Native. The app will
 - Download Android Studio(Win) or iOS Simulator/XCode(Mac)
 - Run expo start
 
+## Screenshots
+
 <img width="220" alt="Screenshot 1 from app" src="https://github.com/ilsegaertner/chat-app/blob/main/assets/screen1.png"> <img width="220" alt="Screenshot 2 from app" src="https://github.com/ilsegaertner/chat-app/blob/main/assets/screen-example.png"><img width="220" alt="Screenshot 3 from app" src="https://github.com/ilsegaertner/chat-app/blob/main/assets/screen-example2.png">
