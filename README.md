@@ -2,7 +2,7 @@
 
 ## Objective
 
-<img width="220" alt="Screenshot 1 from app" src="https://github.com/ilsegaertner/chat-app/blob/main/assets/screen1.png"> <img src="https://github.com/ilsegaertner/chat-app/blob/main/assets/gif%20for%20chat%20app.gif" alt="Screenshot 2, gif of the apps functionality" width="220"><img width="220" alt="Screenshot 2 from app" src="https://github.com/ilsegaertner/chat-app/blob/main/assets/screen-example.png"><img width="220" alt="Screenshot 3 from app" src="https://github.com/ilsegaertner/chat-app/blob/main/assets/screen-example2.png">
+< <img src="https://github.com/ilsegaertner/chat-app/blob/main/assets/gif%20for%20chat%20app.gif" alt="Screenshot 2, gif of the apps functionality" width="220">
 
 To build a chat app for mobile devices using React Native. The app will provide users with a chat interface and options to share images and their location.
 
@@ -30,3 +30,5 @@ To build a chat app for mobile devices using React Native. The app will provide 
 - Use your own Firebase configuration code
 - Download Android Studio(Win) or iOS Simulator/XCode(Mac)
 - Run expo start
+
+<img width="220" alt="Screenshot 1 from app" src="https://github.com/ilsegaertner/chat-app/blob/main/assets/screen1.png"> <img width="220" alt="Screenshot 2 from app" src="https://github.com/ilsegaertner/chat-app/blob/main/assets/screen-example.png"><img width="220" alt="Screenshot 3 from app" src="https://github.com/ilsegaertner/chat-app/blob/main/assets/screen-example2.png">
