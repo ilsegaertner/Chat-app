@@ -44,8 +44,9 @@ The app will provide users with a chat interface and options to share images and
   - **Create Database** in **Firestore Database** (choose a close region from the dropdown, and _Start in production mode_)
   - Change `allow read, write: if false;` to `allow read, write, if true;` in **Rules** tab
   - **Register app(`</>`)** in **Project Overview**
-  - Follow directions of adding Firebase SDK:
-    - `npm install firebase` + Initializing firebase: Copy and paste the provided Firebase configuration and change them in the App.js of the downloaded repository
+  - Now, follow the provided directions of adding Firebase SDK:
+    - Install firebase: `npm install firebase`
+    - Initialize firebase: Copy and paste the provided Firebase configuration and change them in the App.js of the downloaded repository
 - Download Android Studio(Win) or iOS Simulator/XCode(Mac)
 - Run `expo start` in the terminal. Follow the instruction to access the app via the iOS Simulator/Android Emulator
 
