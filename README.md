@@ -30,10 +30,10 @@ The objective was to build a chat app for mobile devices using React Native. The
 - Install Expo globally: `npm install -g expo-cli`
 - Sign up for an <a href="https://expo.dev/">Expo Account </a> to be able to run the app on your device
 - Clone the repository
-- Run `npm install``
+- Run `npm install`
 - Use your own Firebase configuration code
 - Download Android Studio(Win) or iOS Simulator/XCode(Mac)
-- Run `expo start``
+- Run `expo start`
 
 ## Screenshots
 
