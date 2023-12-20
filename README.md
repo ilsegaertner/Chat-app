@@ -10,6 +10,7 @@ The objective was to build a chat app for mobile devices using **React Native**.
 </p>
 
 <br>
+
 ## Features
 
 - Select the background of the chat(four colors to choose)
