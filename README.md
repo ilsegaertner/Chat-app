@@ -7,7 +7,7 @@ The objective was to build a chat app for mobile devices with **React Native**.
 The app will provide users with a chat interface and options to share images and their location from a phone as well as the Android Simulator.
 
 <br>
-<p align="center">Screenshot gif from the Android Emulator:</p>
+<p align="center">Screenshot gif</p>
 <br>
 
 <p align="center"><img src="https://github.com/ilsegaertner/chat-app/blob/main/assets/gif%20for%20chat%20app.gif" alt="Screenshot 2, gif of the apps functionality" width="220">
@@ -43,7 +43,7 @@ The app will provide users with a chat interface and options to share images and
   - **Create a Project** (uncheck _Enable Google Analytics for this project_)
   - **Create Database** in **Firestore Database** (choose a close region from the dropdown, and _Start in production mode_)
   - Change `allow read, write: if false;` to `allow read, write, if true;` in **Rules** tab
-  - **Register app(</>)** in **Project Overview**
+  - **Register app(`</>`)** in **Project Overview**
   - Follow directions of adding Firebase SDK:
     - `npm install firebase` + Initializing firebase: Copy and paste the provided Firebase configuration and change them in the App.js of the downloaded repository
 - Download Android Studio(Win) or iOS Simulator/XCode(Mac)
