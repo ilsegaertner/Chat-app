@@ -1,4 +1,4 @@
-## Chat App
+# Chat App
 
 ## Objective
 
