@@ -6,6 +6,8 @@ import {
   disableNetwork,
 } from "firebase/firestore";
 
+import { getStorage } from "firebase/storage";
+
 import Start from "./components/Start.js";
 import Chat from "./components/Chat.js";
 import { Alert, LogBox } from "react-native";
@@ -16,7 +18,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { useEffect } from "react";
 import { useNetInfo } from "@react-native-community/netinfo";
 
-//create the navigator
+// create the navigator
 const Stack = createNativeStackNavigator();
 
 // ignores error Message in Welcome Screen
@@ -39,6 +41,8 @@ const App = () => {
   const app = initializeApp(firebaseConfig);
   // Initialize Cloud Firestore and get a reference to the service
   const db = getFirestore(app);
+  // Initialize Cloud Firestore Storage and get a reference to the service
+  const storage = getStorage(app);
 
   useEffect(() => {
     if (connectionStatus.isConnected === false) {
@@ -57,6 +61,7 @@ const App = () => {
           {(props) => (
             <Chat
               db={db}
+              storage={storage}
               isConnected={connectionStatus.isConnected}
               {...props}
             />

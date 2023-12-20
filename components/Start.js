@@ -23,10 +23,11 @@ const Start = ({ navigation }) => {
           user: user,
           background: background,
         });
-        Alert.alert("Signed In Successfully!");
+        // Alert.alert("Signed In Successfully!");
+        Alert.alert(`Hi ${user}. You are now successfully signed in.`);
       })
       .catch((error) => {
-        Alert.alert("Unable to sign in, try again later.");
+        Alert.alert("Unable to sign in, please try again later.");
       });
   };
 
